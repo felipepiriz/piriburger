@@ -19,7 +19,7 @@ const bienvenidos =() =>{
 const NavBar = () => {
 
     return (
-        <div style={ { backgroundColor: "black", padding: 1,height:100, display:"flex", flexBox:"row",justifyContent:"space-between" } }>
+        <div style={ { backgroundColor: "black", padding: 1,height:100, display:"flex", flexBox:"row",justifyContent:"space-between"}  }>
             <h1 style={ {color:"#FFDB58", fontSize:30, textAlign:"left",marginLeft:100,marginTop:25, letterSpacing:10, textTransform:"uppercase" } } onClick={bienvenidos}>Piriburger</h1>
             <div style={ {display:"flex", flexBox:"row", justifyContent: "center", gap:50 } }>
                 <h2 style={ {color:"#FFDB58", fontSize:18, marginTop:35 }}   onClick ={AlertQuienesSomos}> Quienes somos?</h2>

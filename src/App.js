@@ -1,7 +1,7 @@
 import  './App.css';
 import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
 import ThreeDRotation from '@mui/icons-material/ThreeDRotation';
-import NavBar from "./nav-bar/navBar";
+import NavBar from "./components/nav-bar/navBar";
 
 
 function App() {
